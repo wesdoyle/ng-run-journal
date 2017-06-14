@@ -42,3 +42,5 @@ testem.log
 Thumbs.db
 
 src/environments
+*.jpg
+*.gpx
