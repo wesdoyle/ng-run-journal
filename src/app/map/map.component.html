@@ -1,0 +1,28 @@
+<div class="row row-map">
+  <div class="col-md-8">
+      <h2 class="heading">Map</h2>
+      <hr/>
+    <div id="map"></div>
+  </div>
+  <div class="col-md-4 info-container">
+    <div id="run-info">
+      <h2 class="heading">Run Data</h2>
+      <hr/>
+      <div class="data-heading">Route Name:</div>
+      <p class="data-entry">{{ activityName }}</p>
+      <hr/>
+
+      <div class="data-heading">Date:</div>
+      <p class="data-entry">{{ activityDate | date:"longDate" }} <p>
+      <hr/>
+
+      <div class="data-heading">Total Distance:</div>
+      <p class="data-entry">{{ activityDistance }} miles</p>
+      <hr/>
+
+      <div class="data-heading">Comments:</div>
+      <p class="data-entry">{{ activityComments }}</p>
+      <hr/>
+    </div>
+  </div>
+</div>

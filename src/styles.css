@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  font-family: 'Jaldi', sans-serif;
+  background-image: url("./assets/img/3.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.layer {
+  background: rgb(100,185,196);
+  background: linear-gradient(135deg, rgba(100,185,196,0.2) 0%,rgba(6,24,91,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  min-height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.app-row{
+  background-color:#fff;
+}
