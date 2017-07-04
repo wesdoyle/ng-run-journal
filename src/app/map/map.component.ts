@@ -30,7 +30,7 @@ export class MapComponent implements OnInit {
     this.activityName = this.activity.name;
     this.activityComments = this.activity.comments;
     this.activityDistance = this.activity.distance;
-    this.activityDate = this.activity.Date;
+    this.activityDate = this.activity.date;
     this.gpx = this.activity.gpxData;
   }
 
